@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url('https://thumbs.gfycat.com/OpulentUnhappyAfricanaugurbuzzard-size_restricted.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    height: 7%;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+.categories {
+    width: 100%;
+    height: 93%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.categories a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.86;
+    font-size: 4vw;
+    border: 1px dotted black;
+    padding: 15px;
+    width: 50%;
+    height: 22%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.25s ease-in;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.categories a:hover {
+    opacity: 1;
+}
+
+
+.games {
+    background: url('https://i.pinimg.com/originals/80/ae/b3/80aeb3ecb87b81396695e48df27223f4.jpg') center;
+}
+
+.movies {
+    background: url('https://i2.wp.com/www.seekerstime.com/wp-content/uploads/2022/02/movie.jpg?fit=1280%2C720&ssl=1') center;
+}
+
+.series {
+    background: url('https://wallpaperaccess.com/full/1445798.jpg') center;
+}
+.music {
+    background: url('https://thumbs.dreamstime.com/b/retro-old-antique-hipster-music-audio-recorder-s-against-background-abstract-yellow-rays-vector-illustration-174285895.jpg') center;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.example {
+    height: 80%;
+    width: 24.5%;
+}
+
+.example h3 {
+    height: 20%;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 300;
+    font-style: italic;
+    border-top: 4px dotted black;
+    border-right: 4px dotted black;
+    font-size: 0.95vw;
+}
+.example img {
+    height: 40%;
+    width: 100%;
+    transition: 0.5 ease-in-out;
+    filter: grayscale(50%);
+}
+
+.example img:hover {
+    filter: grayscale(0%);
+}
+
+.top:hover {
+    transform: scale(1.001);
+}
+.bottom {
+    display: none;
+}
+
+#Layer_1 {
+    transition: 0.1s ease-in-out;
+    border-radius: 30%;
+    background: transparent;
+    padding: 5px;
+}
+
+#Layer_1:hover {
+    background: goldenrod;
+    border-radius: 50%;
+}
